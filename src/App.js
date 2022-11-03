@@ -15,7 +15,7 @@ function App() {
     }
       try{
           const response = await api.get(`/students/${input}`);
-          // console.log(response.data);
+          console.log(response);
           setNome(response.data);
           setInput("");
 
